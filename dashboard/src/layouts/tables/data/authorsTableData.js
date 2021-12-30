@@ -41,20 +41,20 @@ export default function data() {
 
   return {
     columns: [
-      { Header: "author", accessor: "author", width: "45%", align: "left" },
-      { Header: "function", accessor: "function", align: "left" },
-      { Header: "status", accessor: "status", align: "center" },
-      { Header: "employed", accessor: "employed", align: "center" },
+      { Header: "customer", accessor: "author", width: "45%", align: "left" },
+      { Header: "activity", accessor: "function", align: "left" },
+      { Header: "engagement", accessor: "status", align: "center" },
+      { Header: "since", accessor: "employed", align: "center" },
       { Header: "action", accessor: "action", align: "center" },
     ],
 
     rows: [
       {
-        author: <Author image={team2} name="John Michael" email="john@creative-tim.com" />,
-        function: <Job title="Manager" description="Organization" />,
+        author: <Author image={team2} name="John Michael" email="john@hmail.com" />,
+        function: <Job title="Services" description="Monthly" />,
         status: (
           <MDBox ml={-1}>
-            <MDBadge badgeContent="online" color="success" variant="gradient" size="sm" />
+            <MDBadge badgeContent="active" color="success" variant="gradient" size="sm" />
           </MDBox>
         ),
         employed: (
@@ -69,11 +69,11 @@ export default function data() {
         ),
       },
       {
-        author: <Author image={team3} name="Alexa Liras" email="alexa@creative-tim.com" />,
-        function: <Job title="Programator" description="Developer" />,
+        author: <Author image={team3} name="Alexa Liras" email="alexa@hmail.com" />,
+        function: <Job title="Sales" description="every 2 days" />,
         status: (
           <MDBox ml={-1}>
-            <MDBadge badgeContent="offline" color="dark" variant="gradient" size="sm" />
+            <MDBadge badgeContent="not active" color="dark" variant="gradient" size="sm" />
           </MDBox>
         ),
         employed: (
@@ -88,11 +88,11 @@ export default function data() {
         ),
       },
       {
-        author: <Author image={team4} name="Laurent Perrier" email="laurent@creative-tim.com" />,
-        function: <Job title="Executive" description="Projects" />,
+        author: <Author image={team4} name="Laurent Perrier" email="laurent@hmail.com" />,
+        function: <Job title="SOS" description="Only once" />,
         status: (
           <MDBox ml={-1}>
-            <MDBadge badgeContent="online" color="success" variant="gradient" size="sm" />
+            <MDBadge badgeContent="active" color="success" variant="gradient" size="sm" />
           </MDBox>
         ),
         employed: (
@@ -107,11 +107,11 @@ export default function data() {
         ),
       },
       {
-        author: <Author image={team3} name="Michael Levi" email="michael@creative-tim.com" />,
-        function: <Job title="Programator" description="Developer" />,
+        author: <Author image={team3} name="Michael Levi" email="michael@hmail.com" />,
+        function: <Job title="Services" description="Monthly" />,
         status: (
           <MDBox ml={-1}>
-            <MDBadge badgeContent="online" color="success" variant="gradient" size="sm" />
+            <MDBadge badgeContent="active" color="success" variant="gradient" size="sm" />
           </MDBox>
         ),
         employed: (
@@ -126,11 +126,11 @@ export default function data() {
         ),
       },
       {
-        author: <Author image={team3} name="Richard Gran" email="richard@creative-tim.com" />,
-        function: <Job title="Manager" description="Executive" />,
+        author: <Author image={team3} name="Richard Gran" email="richard@hmail.com" />,
+        function: <Job title="Services" description="3 Months" />,
         status: (
           <MDBox ml={-1}>
-            <MDBadge badgeContent="offline" color="dark" variant="gradient" size="sm" />
+            <MDBadge badgeContent="not active" color="dark" variant="gradient" size="sm" />
           </MDBox>
         ),
         employed: (
@@ -145,11 +145,11 @@ export default function data() {
         ),
       },
       {
-        author: <Author image={team4} name="Miriam Eric" email="miriam@creative-tim.com" />,
-        function: <Job title="Programator" description="Developer" />,
+        author: <Author image={team4} name="Miriam Eric" email="miriam@hmail.com" />,
+        function: <Job title="SOS" description="2 times" />,
         status: (
           <MDBox ml={-1}>
-            <MDBadge badgeContent="offline" color="dark" variant="gradient" size="sm" />
+            <MDBadge badgeContent="not active" color="dark" variant="gradient" size="sm" />
           </MDBox>
         ),
         employed: (

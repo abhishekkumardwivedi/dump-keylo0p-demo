@@ -22,8 +22,9 @@ import MDBox from "components/MDBox";
 // Material Dashboard 2 React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
+// import Footer from "examples/Footer";
 import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
+// import ReportsBarChart from "examples/Charts/LineCharts/GradientLineChart";
 import ReportsLineChart from "examples/Charts/LineCharts/ReportsLineChart";
 import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatisticsCard";
 
@@ -48,11 +49,11 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="dark"
                 icon="weekend"
-                title="Insurance Due"
-                count={35}
+                title="Vehicle Registered"
+                count={350}
                 percentage={{
                   color: "success",
-                  amount: "+55%",
+                  amount: "+15%",
                   label: "than lask week",
                 }}
               />
@@ -62,12 +63,12 @@ function Dashboard() {
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
                 icon="leaderboard"
-                title="Today's Users"
-                count="2,300"
+                title="Responsive Users"
+                count="210"
                 percentage={{
                   color: "success",
-                  amount: "+3%",
-                  label: "than last month",
+                  amount: "70%",
+                  label: "for vendor initiated",
                 }}
               />
             </MDBox>
@@ -77,11 +78,11 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="success"
                 icon="store"
-                title="Revenue"
-                count="34k"
+                title="Cars initiated for Sales"
+                count="26"
                 percentage={{
                   color: "success",
-                  amount: "+1%",
+                  amount: "+5%",
                   label: "than yesterday",
                 }}
               />
@@ -155,7 +156,7 @@ function Dashboard() {
           </Grid>
         </MDBox>
       </MDBox>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 }

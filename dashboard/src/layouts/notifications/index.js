@@ -29,7 +29,7 @@ import MDSnackbar from "components/MDSnackbar";
 // Material Dashboard 2 React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
+// import Footer from "examples/Footer";
 
 function Notifications() {
   const [successSB, setSuccessSB] = useState(false);
@@ -50,9 +50,9 @@ function Notifications() {
     <MDTypography variant="body2" color="white">
       A simple {name} alert with{" "}
       <MDTypography component="a" href="#" variant="body2" fontWeight="medium" color="white">
-        an example link
+        for customer and vehicle generated message.
       </MDTypography>
-      . Give it a click if you like.
+      . Check the message and respond.
     </MDTypography>
   );
 
@@ -154,7 +154,7 @@ function Notifications() {
               <MDBox p={2} lineHeight={0}>
                 <MDTypography variant="h5">Notifications</MDTypography>
                 <MDTypography variant="button" color="text" fontWeight="regular">
-                  Notifications on this page use Toasts from Bootstrap. Read more details here.
+                  Notifications on this page use Toasts.
                 </MDTypography>
               </MDBox>
               <MDBox p={2}>
@@ -189,7 +189,7 @@ function Notifications() {
           </Grid>
         </Grid>
       </MDBox>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 }

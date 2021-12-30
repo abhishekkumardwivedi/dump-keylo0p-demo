@@ -28,7 +28,7 @@ import MDBox from "components/MDBox";
 // Material Dashboard 2 React example components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
+// import Footer from "examples/Footer";
 import ProfileInfoCard from "examples/Cards/InfoCards/ProfileInfoCard";
 
 // Overview page components
@@ -54,8 +54,8 @@ function Overview() {
                 info={{
                   fullName: "Abhishek Dwivedi",
                   mobile: "(+44) xx xx xx xx xx",
-                  email: "alecthompson@mail.com",
-                  location: "USA",
+                  email: "abhishekkumardwivedi@gmail.com",
+                  location: "UK",
                 }}
                 social={[
                   {
@@ -82,7 +82,7 @@ function Overview() {
           </Grid>
         </MDBox>
       </Header>
-      <Footer />
+      {/* <Footer /> */}
     </DashboardLayout>
   );
 }
