@@ -1,4 +1,9 @@
 # keyloop
+1. [User page features](landing/README.md)
+2. [Admin page features](dashboard/README.md)
+3. [Analytics features](analytics/README.md)
+4. [AI features:TODO](#)
+5. [Car firmware features:TODO](#)
 
 ## baseline
 ### dashboard
