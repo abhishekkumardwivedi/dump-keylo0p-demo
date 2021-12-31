@@ -1,0 +1,62 @@
+.cards_Box {
+  margin-top: 9rem;
+  display: flex;
+}
+
+.card {
+  border-radius: 0.7rem;
+  margin: 0 1.4rem;
+  max-width: 50rem;
+  background-color: white;
+  .logo {
+    background-color: $Dark-Violet;
+    padding: $space * 1.5;
+    border-radius: 100%;
+    margin: -4.5rem 0 -1rem 3.2rem;
+  }
+  &_Body {
+    padding: $space * 2.3;
+    h2 {
+      color: $Very-Dark-Blue;
+      margin-bottom: 2rem;
+    }
+    p {
+      color: $Grayish-Violet;
+      font-size: $base-font-size * 0.785;
+      line-height: $space * 1.8;
+      font-weight: $medium-wt;
+    }
+  }
+}
+.Card_One {
+  margin-top: 1.2rem;
+  margin-bottom: 7rem * 3;
+}
+.Card_Two {
+  margin-top: 5.8rem;
+  margin-bottom: 16.2rem;
+}
+.Card_Three {
+  margin-top: 5rem * 2;
+  margin-bottom: 12rem;
+  img {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
+.center-line {
+  position: relative;
+  top: 25.5rem;
+  left: 20rem;
+  z-index: -1;
+  background-color: $Cyan;
+  height: $space * 0.6;
+  width: 70%;
+  @media screen and (max-width: 1300px) {
+    & {
+      height: $space * 9;
+      width: $space * 2;
+      // will do it later
+    }
+  }
+}

@@ -1,0 +1,21 @@
+#error {
+  position: relative;
+  font-size: $base-font-size * 0.8;
+  color: $Red;
+  padding: 0;
+  margin: 0;
+  margin-top: 2.5rem;
+  left: -80.5rem;
+  top: 5.5rem; //8.5rem
+}
+.hide {
+  opacity: 0;
+}
+#link-alert {
+  color: red;
+  border: 3px solid red;
+}
+
+#copied {
+  background-color: $Dark-Violet;
+}

@@ -1,0 +1,23 @@
+.body {
+  padding-top: 6.5rem;
+  &_Box {
+    &_Fixed {
+      margin: 0 27rem;
+      text-align: center;
+      h1 {
+        font-size: $large-font-size * 1.8;
+        color: $Very-Dark-Blue;
+      }
+      p {
+        line-height: 3.2rem;
+        color: $Grayish-Violet;
+      }
+    }
+  }
+}
+
+.linksAndBody {
+  background-color: lighten($Very-Dark-Blue, 74);
+  z-index: 11;
+  position: relative;
+}

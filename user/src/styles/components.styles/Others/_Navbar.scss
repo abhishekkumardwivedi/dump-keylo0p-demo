@@ -1,0 +1,58 @@
+// nav -> nav_Brand , nav_Body , nav_Auth
+.navbar {
+  align-items: center;
+  color: $Grayish-Violet;
+  display: flex;
+  font-size: $base-font-size * 0.83;
+  font-weight: $bold-wt;
+  .nav_Brand {
+    margin-left: $space;
+    flex: 1;
+  }
+
+  .nav_Body {
+    flex: 3;
+    margin-left: $space * 0.8;
+  }
+
+  .nav_Auth {
+    flex: 2;
+    margin-right: $space * 2;
+
+    ul {
+      justify-content: flex-end;
+      li {
+        margin-left: $space;
+      }
+    }
+  }
+
+  ul {
+    display: flex;
+    li {
+      padding: $space;
+      &:hover {
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+#SignUp {
+  margin-top: 1rem;
+  padding: 0;
+  padding-bottom: 0.6rem;
+  // padding-1top: 0.6rem;
+  height: 1.8rem;
+  &:hover {
+    color: white;
+  }
+}
+
+//experimental
+@media (max-width: 1350px) {
+  .nav_Brand img {
+    width: 10vw;
+  }
+}
